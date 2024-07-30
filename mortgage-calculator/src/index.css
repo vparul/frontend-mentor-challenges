@@ -18,5 +18,5 @@
 }
 
 .input-container {
-    @apply border-[1px] flex relative border-slate-700 rounded items-center my-2;
+    @apply border-[1px] cursor-pointer flex relative border-slate-700 rounded items-center my-2;
 }

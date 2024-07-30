@@ -6,9 +6,9 @@ const RadioButton = ({label, name, options}) => {
         <>
         <label htmlFor={name} className='label'>{label}</label>
         {options?.map(({ name, value, id }) => (
-        <div key={value} className='input-container py-3 px-4'>
-            <input type='radio' id={id} name={name} value={value} className='w-4 h-4' onChange={() => {}} />
-            <label htmlFor={id} className='pl-4 text-xl font-bold text-slate-900'>{name}</label>
+        <div key={value} className='input-container py-3 px-4 hover:border-lime'>
+            <input type='radio' id={id} name={name} value={value} className='w-5 h-5' onChange={() => {}} />
+            <label htmlFor={id} className='pl-4 text-lg font-bold text-slate-900 cursor-pointer'>{name}</label>
         </div>
 
         ))}

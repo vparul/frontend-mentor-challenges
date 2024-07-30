@@ -3,7 +3,6 @@ import NumberInput from '../NumberInput';
 import RadioButton from '../RadioButton/RadioButton';
 import CalculatorIcon from "../../assets/icons/calculator.svg";
 
-
 const Calculator = () => {
      const mortgageTypeList = [
     {
